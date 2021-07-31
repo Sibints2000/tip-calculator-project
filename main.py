@@ -6,4 +6,6 @@
 #HINT 2: https://www.kite.com/python/answers/how-to-limit-a-float-to-two-decimal-places-in-python
 
 print("Welcome to Tip Calculator!")
-bill = input("What was the total bill? $")
+bill = float(input("What was the total bill? $"))
+input("How much tip would you like to give? 10, 12, or 15? ")
+
